@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Quickdraw - Now in Vanilla!</title>
+    <link rel="stylesheet" type="text/css" href="quickdraw.css">
+    <script src="quickdraw.js"></script>
+  </head>
+  <body>
+    <div class="app">
+        <header class="app-header">Quickdraw!</header>
+        <div class="ui-container">
+            <div class="palette">
+              <button id="undo" class="palette-item">
+                  <img alt="Undo" src="img/undo.svg" width="20" /><br/>Undo
+              </button>
+              <button id="redo" class="palette-item">
+                  <img alt="Redo" src="img/redo.svg" width="20" /><br/>Redo
+              </button>
+              <button id="new" class="palette-item">
+                  <img alt="New" src="img/new.svg" width="20" /><br/>New
+              </button>
+              <button id="delete" class="palette-item">
+                  <img alt="Delete" src="img/delete.svg" width="20" /><br/>Delete
+              </button>
+              <button id="move" class="palette-item">
+                  <img alt="Move" src="img/move.svg" width="20" /><br/>Move
+              </button>
+              <button id="line" class="palette-item">
+                  <img alt="Line" src="img/line.svg" width="20" /><br/>Line
+              </button>
+              <button id="rect" class="palette-item">
+                  <img alt="Rect" src="img/rect.svg" width="20" /><br/>Rect
+              </button>
+              <button id="ellipse" class="palette-item">
+                  <img alt="Ellipse" src="img/ellipse.svg" width="20" /><br/>Ellipse
+              </button>
+            </div>
+            <div>
+              <canvas id="canvas" class="renderer" width="400" height="400" ref="canvas" onMouseDown="" onMouseMove="" onMouseUp=""/>
+            </div>
+        </div>
+      </div>
+  </body>
+</html>
